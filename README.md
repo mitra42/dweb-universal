@@ -8,6 +8,9 @@ Its a public project, you are welcome to join and comment, to disagree (respectf
 ## Overview 
 TODO - write something here ! 
 
+An [diagram](https://github.com/mitra42/dweb-universal/blob/master/Dweb%20Universal%20architecture.pdf) 
+with an overview of the architecture 
+
 ## Sub Projects
 
 #### [dweb-mirror](https://github.com/internetarchive/dweb-mirror) - cloning and serving portions of the Internet Archive.
@@ -20,7 +23,7 @@ It is intended to clone some subset of the Archive, and will then serve them in 
 This outgrowth is to solve a problem that developers of complex systems have, how to reference Dweb urls across platforms,
 and in particular how to make sense of a URL inside one system that points at another one.
 
-TODO - add link to doc
+See [naming doc](https://github.com/mitra42/dweb-universal/blob/master/naming.md) for first draft of naming structure proposed.
 
 ## See Also
 
