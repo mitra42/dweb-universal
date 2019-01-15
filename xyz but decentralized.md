@@ -5,6 +5,8 @@ Who is doing this?
 
 This list (ironically) on github is a centralized list of applications, that I (Mitra) am adding to as I do my own research. Pull requests are very welcome. 
 
+See [Dweb document index](https://github.com/internetarchive/dweb-transports/blob/master/DOCUMENTINDEX.md) for a list of the repos that make up the Internet Archive's Dweb project, and an index of other documents. 
+
 ## Projects by category
 
 ### Version Control (Git)
