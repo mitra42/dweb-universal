@@ -28,6 +28,7 @@ As engineers we love to categorize and organize things into stacks, so here's my
 * Internet Access: Getting the local access, and backhaul to the global internet working, includes mesh networking, satellite links, and local nodes etc
 
 ###Summary Table
+
 Org|Categories|Builds on|Type|Notes
 ---|-------|----|----|-----
 Blupoint|Platform?|?|?|Audio only
