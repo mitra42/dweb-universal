@@ -27,7 +27,7 @@ As engineers we love to categorize and organize things into stacks, so here's my
 * Implementers: Orgs that take the Platforms and install them in some underserved location.
 * Internet Access: Getting the local access, and backhaul to the global internet working, includes mesh networking, satellite links, and local nodes etc
 
-###Summary Table
+### Summary Table
 
 Org|Categories|Builds on|Type|Notes
 ---|-------|----|----|-----
