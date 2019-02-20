@@ -45,6 +45,7 @@ Kiwix|Servers|Wikipedia|?|App
 Mikrotik|Platform|?|?|
 Onno Purbo|Platform|RPI; which services?|?|Indonesia
 Pfsense|Platform|?|?|
+PirateBox|Platform|RPi|?|Offline (WiFi) file sharing
 Pnkgo|Platform|RPi, Microtik, Ubiquity|?|Focus on disasters
 Rachel|Hardware+Platform|OER2GO, Kolibri, Intel device|Non-profit|
 Rhizomatic|Implementers + Internet Access ?|? RPi|
@@ -124,6 +125,12 @@ The UI takes some getting used to in terms of complexity but once it is set up i
 It is the sort of thing that could be configured in advance.  
 I would run it on something like an Intel NUC. 
 - from Steve Song 2016-03-
+
+### PirateBox 
+Offline file sharing, on RPi 
+[piratebox.cc](https://www.piratebox.cc/doku.php)
+
+Used by autonomous offline networks such as [Fuxico](http://redeautonomafeminista.org/fuxico/)
 
 ### Pnkgo
 Kit for wifi etc in emergency. Microtik + RPi + Ubiquity. Own disk images. 
