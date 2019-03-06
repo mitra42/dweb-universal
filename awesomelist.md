@@ -29,19 +29,27 @@ As engineers we love to categorize and organize things into stacks, so here's my
 
 ### Summary Table
 
-Org|Categories|Builds on|Type|Notes
+Org or Project|Categories|Builds on|Type|Notes
 ---|-------|----|----|-----
+Altermundi|Implementers|Libremesh|?|Argentina, Mexico remote villages
 Blupoint|Platform?|?|?|Audio only
 Bluetown|Platform / Implementers|?|For Profit|
 Coolabs|Platform|Ambien, TV boxes|Non-profit ?|
 EduAir|Platforms|?|?|Cameroon formerly Kwiizi
+eGranary|Platforms|Windows|?|Confusingly also called Internet In A Box
 eLimu|Content|?|?|
 FreedomBox|?|?|?|
+Guifi|Internet|Libremesh|?|Catalonia
 IEEE Sight|?|?|?|Tunisia
 Imcon|?|?|?|
 Internet Archive|Content+Server| |Non-profit|
+KA Lite|Servers|Khan Academy|project of Learning Equality|
+Kolibri|Servers|OER|project of Learning Equality|
 Internet in a Box|Platform|RPi; which servers?|Non-profit ?|
 Kiwix|Servers|Wikipedia|?|App
+Kolibri|Servers|OER|
+LearningEquality|Servers|Kolibri, KA Light|Non profit|Developers of Kolibri & KA Light
+Libremesh|Internet|?|?|WiFi mesh software
 Mikrotik|Platform|?|?|
 Onno Purbo|Platform|RPI; which services?|?|Indonesia
 Pfsense|Platform|?|?|
@@ -49,10 +57,15 @@ PirateBox|Platform|RPi|?|Offline (WiFi) file sharing
 Pnkgo|Platform|RPi, Microtik, Ubiquity|?|Focus on disasters
 Rachel|Hardware+Platform|OER2GO, Kolibri, Intel device|Non-profit|
 Rhizomatic|Implementers + Internet Access ?|? RPi|
+Widernet|See eGranary
 
 # Organizations and Projects
 ##### in Alphabetical order
 
+### Altermundi
+Building WiFi mesh networks in remote villages (Argentina ?, Mexico). 
+Uses [libremesh](https://chef.libremesh.org/) for mesh, RPi for local servers.
+Contact: Nico Pace
 
 ### Blupoint 
 BluePoint Integrated content delivery through meshwifi/GSM/bluetooth... including offline environments http://bluepoint.org
@@ -79,12 +92,22 @@ IA next steps: Mitra Scheduling call with Bruno
 ### EduAir (Formerly Kwiizi) from Cameroon
 is the concept name to offer a better education via digital with or without the internet. Their work focuses on the design of portable and open media libraries in the form of Boxes with solar energy giving access to millions of educational content and offering an integrated communication system where learners can make video calls within the local network deployed by the Box http://www.eduair.org -- from Mike Jensen 2018-11
 
+### eGrannary / Widernet - NC USA
+Platform - works on window, also called Internet in a Box, but no obvious relationship. Clif Missan
+-- Mike Jenson Jan2019
+
+IA next steps: reach out
+
 ### eLimu
 Educational agency, eLimu, which creates digital educational material in fun formats, including animations, film and puzzles. 
 Used in the Kibera Library project (Kenya) 
 -- from Mike Jensen 2018-11
 
 ### FreedomBox
+
+### Guifi - Catalonia
+Largest WiFi mesh network - Catalonia - uses Libremesh. 
+Mostly not actually meshing, but extending higher bandwidth fixed connections over WiFi to third parties, i.e. they have the payment/sharing part working.
 
 ### IEEE Sight in Tunisia
 developed Raspberry Pi operated devices with hard disks that can be updated periodically with relevant content such as Wikipedia pages, TED Talks and other educational content from the Internet. They are capable of automatically updating content when connected to Wi-Fi or 3G networks.
@@ -107,6 +130,22 @@ IA next step: Download and attempt to integrate IA server
 (http://www.kiwix.org/) Kiwix is a free app that allows you to search and read Wikipedia without an Internet connection. 
 Available for Android, iOS, Windows, macOS and Linux.  
 -- from Mike Jensen 2018-11
+
+### KALight
+A lightweight version of Khan Academy's educational platform, 
+I think this is what runs on Rachel3+ and Internet-in-a-Box ?
+- see Learning Equality
+
+### Kolibri
+Package and interface for various OER resources, 
+Shipped on Internet-in-a-Box (Check) and Rachel3+ (Check)
+- see Learning Equality
+
+### Learning Equality 
+Non profit developers of Kolibri and KALight 
+
+### LibreMesh
+Wifi mesh software (firmware for routers) used by Guidi and Altermundi 
 
 ### Mikrotik
 Another option that does much the same thing in an integrated hardware/software solution, but quite cheaply, is the MikroTik gear.. 
