@@ -12,12 +12,15 @@ Media here is tagged with:
 KALite; Kolibri; Learning; OER; 
 
 
-##Articles (newest first)
+## Articles (newest first)
 
 * [Connecting the Disconnected: Online Learning for an Offline World
 ](https://www.engineeringforchange.org/news/connecting-disconnected-online-learning-offline-world/)
-(KALite, Kolibri, Learning Equality, OER) 2019-05-07
+(KALite, Kolibri, Learning Equality, OER) E4C 2019-05-07
 
+## Media that likes to cover this space.
+
+* E4C: [Engineering for Change](https://www.engineeringforchange.org), project of ASME and IEEE
 
 #### Contributors
 Mitra Ardron - Tech Lead for Decentralized Web at Internet Archive (editor)
