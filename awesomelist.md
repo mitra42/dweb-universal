@@ -5,6 +5,8 @@ the goal of the Dweb-Universal project of
 getting content to places where the internet is of low quality 
 either through cost, speed, or censorship. 
 
+See also the companion list of [media coverage](./media.md).
+
 ## Guides to contributing
 It is curated by Mitra, but with additional curation welcome,
 and especially please edit your own entry, or send me a replacement
@@ -133,12 +135,12 @@ Available for Android, iOS, Windows, macOS and Linux.
 
 ### KALight
 A lightweight version of Khan Academy's educational platform, 
-I think this is what runs on Rachel3+ and Internet-in-a-Box ?
+Ships on IIAB, and on Rachel3+ (check)
 - see Learning Equality
 
 ### Kolibri
 Package and interface for various OER resources, 
-Shipped on Internet-in-a-Box (Check) and Rachel3+ (Check)
+Ships on IIAB, and on Rachel3+ (check)
 - see Learning Equality
 
 ### Learning Equality 
@@ -204,6 +206,13 @@ IA Next step: (Mitra & Maka) proposed workshop for IFF.
 ### Yunohost
 Flexible solutions (for package management) ( like http://yunohost.org/ for example ) with proper training ... - from Nico 2018-12
 
+## Other quick links 
+Mesh Networks: [NYC Mesh](https://docs.nycmesh.net); 
+[SuDoRoom/People's Open](https://sudoroom.org); 
+[FreiFunk](https://wiki.freifunk.net); 
+[Guifi](http://guifi.net/) and [paper](https://people.ac.upc.edu/leandro/docs/analysis.pdf);
+[Altermundi](http://blog.altermundi.net) 
+[LibreMesh](https://libremesh.org/docs)]
 
 ## Research and other publications
 
