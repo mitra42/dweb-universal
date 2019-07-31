@@ -1,7 +1,7 @@
 # Awesome list - Content Access
 
 This is a list of projects and resources relevant to 
-the goal of the Dweb-Universal project of
+the goal of the Internet Archive's Universal Library Access project of
 getting content to places where the internet is of low quality 
 either through cost, speed, or censorship. 
 
@@ -29,15 +29,18 @@ so here's my completely arbritrary stack.
 * Servers/Apps: Usually tied to a specific set of content, or to a content standard
 * Platforms: Software that ties together Servers, Hardware management, admin, 
   access etc with some kind of UI
+* Package: package of Platform with content and possibly services
 * Implementers: Orgs that take the Platforms and install them in some underserved location.
 * Internet Access: Getting the local access, and backhaul to the global internet working, 
   includes mesh networking, satellite links, and local nodes etc
+* OneOffs: Hybrids of the different layers put together for specific projects/deployments.
 
 ### Summary Table
 
 Org or Project|Categories|Builds on|Type|Notes
 ---|-------|----|----|-----
-    Altermundi|Implementers|Libremesh|?|Argentina, Mexico remote villages
+Altermundi|Implementers|Libremesh|?|Argentina, Mexico remote villages
+Asanka|Package|?|For Profit ?|
 Blupoint|Platform?|?|?|Audio only
 Bibliotechs Sans Frontiers|Platform|?|Non profit|
 Bluetown|Platform / Implementers|?|For Profit|
@@ -46,10 +49,11 @@ Coolabs|Platform|Ambien, TV boxes|Non-profit ?|
 EduAir|Platforms|?|?|Cameroon formerly Kwiizi
 eGranary|Platforms|Windows|?|Confusingly also called Internet In A Box
 eLimu|Content|?|?|
+Endless|Platform|?|?|?
 Everylayer|Implementers|?|For-profit|Aquired by Brck 2018
 FreedomBox|?|?|?|
 Guifi|Internet|Libremesh|?|Catalonia
-IEEE Sight|?|?|?|Tunisia
+IEEE Sight|OneOffs|RPi+?|?|Tunisia
 Imcon|?|?|?|
 Internet Archive|Content+Server| |Non-profit|
 KA Lite|Servers|Khan Academy|project of Learning Equality|
@@ -64,8 +68,9 @@ Libremesh|Internet|?|?|WiFi mesh software
 Mikrotik|Platform|?|?|
 Offline Internet Consortium|Association|?|?
 Onno Purbo|Platform|RPI; which services?|?|Indonesia
+Othernet|Internet Access|?|?|
 Pathagar|Server|?|?|?
-Pfsense|Platform|?|?|
+Pfsense|Internet Access|?|?|
 PirateBox|Platform|RPi|?|Offline (WiFi) file sharing
 Pnkgo|Platform|RPi, Microtik, Ubiquity|?|Focus on disasters
 Rachel|Hardware+Platform|OER2GO, Kolibri, Intel device|Non-profit|
@@ -82,6 +87,12 @@ Yunonet|?|?|?
 Building WiFi mesh networks in remote villages (Argentina ?, Mexico). 
 Uses [libremesh](https://chef.libremesh.org/) for mesh, RPi for local servers.
 Contact: Nico Pace
+
+### Asanka 
+It looks like an RPI with some embedded content and a cloud service.
+Commercial service I believe. 
+https://www.myasanka.com/ 
+(Shared on E4C webinar by Bill Grates)
 
 ### Bibliotech sans Frontiers [www.bibliosansfrontieres.org](https://www.bibliosansfrontieres.org)
 Have their own platform for off grid libraries. 
@@ -128,6 +139,12 @@ Educational agency, eLimu, which creates digital educational material in fun for
 Used in the Kibera Library project (Kenya) 
 -- from Mike Jensen 2018-11
 
+### Endless OS
+A repacking of linux to app-ify it and make it useful offline. Restricted to their apps (I think).
+More info needed. 
+https://endlessos.com/
+Thanks to Stefan @ Mobisol for the lead
+
 ### EveryLayer - [everylayer.com](http://www.everylayer.com) - Kenya
 Was providing WiFi based data packages esp in Nairobi, acquired by BRCK in 2018, 
 -- contact was Alicia Levine but not responding to email
@@ -139,12 +156,13 @@ Largest WiFi mesh network - Catalonia - uses Libremesh.
 Mostly not actually meshing, but extending higher bandwidth fixed connections over WiFi to third parties, 
 i.e. they have the payment/sharing part working.
 
-### IEEE Sight in Tunisia
-developed Raspberry Pi operated devices with hard disks that can be updated periodically with relevant content such as Wikipedia pages, 
+### IEEE Sight -- Tunisia
+Developed Raspberry Pi operated devices with hard disks that can be updated periodically with relevant content such as Wikipedia pages, 
+IEEE Sight seem to be developing one off systems. e.g. For Tunisia by IEEE in Tunisia & SF. 
 TED Talks and other educational content from the Internet. 
 They are capable of automatically updating content when connected to Wi-Fi or 3G networks.
 [1worldconnected.org/wp-content/uploads/2018/02/Project-Tawasol-Tunisia.pdf](Project-Tawasol-Tunisia.pdf)
--- from Mike Jensen 2018-11
+-- from Mike Jensen 2018-11 but dont have direct contacts to anyone on the project. 
 
 ### Imcon International 
 https://imconintl.com/product/edu/ - from Mike Jensen 2019-01-04
@@ -198,17 +216,20 @@ Consortium of groups involved in the space.
 Contact: Jim O'Donnell
 
 ### Onno Purbo - Indonesia
-Is also working on a RPi based educational server - onno@indo.net.id -- from Mike Jensen 2018-11 
+Is also working on a RPi based educational server - from Mike Jensen 2018-11 
 (not responsive to emails)
 
-### Pfsense
-The best option I can think of is Pfsense [https://www.pfsense.org/].  
+### Othernet
+Satellite broadcast system, looks super complicated to setup. https://othernet.is/
+
+### Pfsense 
+(network security/captive portal 
+'The best option I can think of is Pfsense [https://www.pfsense.org/].  
 Runs on little appliances and has built in support for captive portals which can authenticate locally via tiny database or remotely via Radius server.  
 Also has loads of other useful tools like bandwidth shaping, firewall, and many other features.  
 The UI takes some getting used to in terms of complexity but once it is set up it is pretty bullet-proof.   
 It is the sort of thing that could be configured in advance.  
-I would run it on something like an Intel NUC. 
-- from Steve Song 2016-03-
+I would run it on something like an Intel NUC.' Steve Song 2016-03-
 
 ### Pathagar 
 Offline book reader
