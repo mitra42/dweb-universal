@@ -34,6 +34,7 @@ so here's my completely arbritrary stack.
 * Internet Access: Getting the local access, and backhaul to the global internet working, 
   includes mesh networking, satellite links, and local nodes etc
 * OneOffs: Hybrids of the different layers put together for specific projects/deployments.
+* Vertical: Attempts to do all the above in one project.
 
 ### Summary Table
 
@@ -76,7 +77,7 @@ Pnkgo|Platform|RPi, Microtik, Ubiquity|?|Focus on disasters
 Rachel|Hardware+Platform|OER2GO, Kolibri, Intel device|Non-profit|
 Research Partnership for Public Access|?|?|?
 Rhizomatic|Implementers + Internet Access ?|? RPi|
-Solarspell|?|?|?
+Solarspell|Vertical|RPI|Non Profit, University|
 Widernet|See eGranary
 Yunonet|?|?|?
 
@@ -275,7 +276,9 @@ by educators and volunteers worldwide. Users can also upload their own content o
 content that is made available for later offline use. 
 
 ### SolarSpell
- - Library powered by Raspberry Pi, with Wifi access point http://solarspell.org/ -- from Mike Jensen 2018-11
+Offline school Library powered by Raspberry Pi, with Wifi access point and Solar panel. 
+Vertically integrated (content, software, curation, deployment, training) 
+http://solarspell.org/ (from E4C webinar July 2019)
 
 ### TEEAL - http://teeal.org
 The Essential Electronic Agricultural Library (TEEAL) is a digital collection containing hundreds of research journals for agriculture and related sciences. more
