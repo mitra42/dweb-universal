@@ -35,6 +35,7 @@ so here's my completely arbritrary stack.
   includes mesh networking, satellite links, and local nodes etc
 * OneOffs: Hybrids of the different layers put together for specific projects/deployments.
 * Vertical: Attempts to do all the above in one project.
+* Associations: Organizations that don't fit into one specific category
 
 ### Summary Table
 
@@ -45,7 +46,7 @@ Asanka|Package|?|For Profit ?|
 Blupoint|Platform?|?|?|Audio only
 Bibliotechs Sans Frontiers|Platform|?|Non profit|
 Bluetown|Platform / Implementers|?|For Profit|
-BRCK|?|?|?
+BRCK|Vertical|?|For-profit|
 Coolabs|Platform|Ambien, TV boxes|Non-profit ?|
 EduAir|Platforms|?|?|Cameroon formerly Kwiizi
 eGranary|Platforms|Windows|?|Confusingly also called Internet In A Box
