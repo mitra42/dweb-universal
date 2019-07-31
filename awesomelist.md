@@ -324,4 +324,5 @@ Please feel free to add public contact info if you are contributing above. Pleas
 
 * Mitra Ardron @ Internet Archive - personal: [www.mitra.biz](https://www.mitra.biz) work: [dweb.archive.org](https://dweb.archive.org) repos: github.com/internetarchive/dweb* mitra@mitra.biz
 * Nico Pace @ Altermundi
-* Mike Jensen @ APC
+* Mike Jensen - coordinates the Locnet program at APC.org
+
