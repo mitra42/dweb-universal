@@ -41,46 +41,46 @@ so here's my completely arbritrary stack.
 
 Org or Project|Categories|Builds on|Type|Notes
 ---|-------|----|----|-----
-Altermundi|Implementers|Libremesh|?|Argentina, Mexico remote villages
-Asanka|Package|?|For Profit ?|
-Blupoint|Platform?|?|?|Audio only
-Bibliotechs Sans Frontiers|Platform|?|Non profit|
-Bluetown|Platform / Implementers|?|For Profit|
-BRCK|Vertical|?|For-profit|
+Altermundi|Implementers|Libremesh| |Argentina, Mexico remote villages
+Asanka|Package| |For Profit ?|
+Blupoint|Platform?| | |Audio only
+Bibliotechs Sans Frontiers|Platform| |Non profit|
+Bluetown|Platform / Implementers| |For Profit|
+BRCK|Vertical| |For-profit|
 Coolabs|Platform|Ambien, TV boxes|Non-profit ?|
-EduAir|Platforms|?|?|Cameroon formerly Kwiizi
-eGranary|Platforms|Windows|?|Confusingly also called Internet In A Box
-eLimu|Content|?|?|
-Endless|Platform|?|?|?
-Everylayer|Implementers|?|For-profit|Aquired by Brck 2018
-FreedomBox|?|?|?|
-Guifi|Internet|Libremesh|?|Catalonia
-IEEE Sight|OneOffs|RPi+?|?|Tunisia
-Imcon|?|?|?|
+EduAir|Platforms| | |Cameroon formerly Kwiizi
+eGranary|Platforms|Windows| |Confusingly also called Internet In A Box
+eLimu|Content| | |
+Endless|Platform| | | 
+Everylayer|Implementers| |For-profit|Aquired by Brck 2018
+FreedomBox| | | |
+Guifi|Internet|Libremesh| |Catalonia
+IEEE Sight|OneOffs|RPi+?| |Tunisia
+Imcon|Package| | |
 Internet Archive|Content+Server| |Non-profit|
 KA Lite|Servers|Khan Academy|project of Learning Equality|
 Kolibri|Servers|OER|project of Learning Equality|
 Internet in a Box|Platform|RPi; which servers?|Non-profit ?|
-Kiwix|Servers|Wikipedia|?|App
+Kiwix|Servers|Wikipedia| |App
 Kolibri|Servers|OER|
-Inveneo|Implementer|?|non-profit|Appears to be defunct
-LearningEquality|Servers|Kolibri, KA Light|Non profit|Developers of Kolibri & KA Light
-Library Box|?|?|?
-Libremesh|Internet|?|?|WiFi mesh software
-Mikrotik|Platform|?|?|
-Offline Internet Consortium|Association|?|?
-Onno Purbo|Platform|RPI; which services?|?|Indonesia
-Othernet|Internet Access|?|?|
-Pathagar|Server|?|?|?
-Pfsense|Internet Access|?|?|
-PirateBox|Platform|RPi|?|Offline (WiFi) file sharing
-Pnkgo|Platform|RPi, Microtik, Ubiquity|?|Focus on disasters
+Inveneo|Implementer| |non-profit|Appears to be defunct
+Learning Equality|Servers|Kolibri, KA Light|Non profit|Developers of Kolibri & KA Light
+Library Box| | | 
+Libremesh|Internet| | |WiFi mesh software
+Mikrotik|Platform| | |
+Offline Internet Consortium|Association| | 
+Onno Purbo|Platform|RPI; which services?| |Indonesia
+Othernet|Internet Access| | |
+Partnership for Public Access| | | 
+Pathagar|Server| | | 
+Pfsense|Internet Access| | |
+PirateBox|Platform|RPi| |Offline (WiFi) file sharing
+Pnkgo|Platform|RPi, Microtik, Ubiquity| |Focus on disasters
 Rachel|Hardware+Platform|OER2GO, Kolibri, Intel device|Non-profit|
-Research Partnership for Public Access|?|?|?
-Rhizomatic|Implementers + Internet Access ?|? RPi|
+Rhizomatic|Implementers + Internet Access ?|  RPi|
 Solarspell|Vertical|RPI|Non Profit, University|
 Widernet|See eGranary
-Yunonet|?|?|?
+Yunonet| | | 
 
 # Organizations and Projects
 ##### in Alphabetical order
@@ -167,6 +167,8 @@ They are capable of automatically updating content when connected to Wi-Fi or 3G
 -- from Mike Jensen 2018-11 but dont have direct contacts to anyone on the project. 
 
 ### Imcon International 
+Backpack products - main focus seems an SOS backpack for connecting personally when offgrid.
+Uses satellite for the backhaul, haven't had any contact but looks seriously expensive. 
 https://imconintl.com/product/edu/ - from Mike Jensen 2019-01-04
 
 ### Inveneo
@@ -213,7 +215,7 @@ Wifi mesh software (firmware for routers) used by Guidi and Altermundi
 Another option that does much the same thing in an integrated hardware/software solution, but quite cheaply, is the MikroTik gear.. 
 - from Mike Jensen 2016-03
 
-### [Offline Internet Consortium](https://widernet.unc.edu/research/offline-internet-consortium/offline-internet-consortium-initiatives/)
+### [Offline Internet Consortium](https://widernet.unc.edu/research/offline-internet-consortium/offline-internet-consortium-initiatives/) [offline-internet.org](https://www.offline-internet.org/)
 Consortium of groups involved in the space. 
 Contact: Jim O'Donnell
 
@@ -258,7 +260,7 @@ Use case is schools in Africa with computers but no internet, teachers take box 
 for it to self-update.
 
 
-### Research Partnership for Public Access
+### Partnership for Public Access
 ?  via Carlos (wifi) @ APC
 
 ### Rhizomatic (TODO need link)

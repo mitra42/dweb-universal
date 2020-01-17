@@ -2,6 +2,8 @@
 
 First draft 26 August 2018 by Mitra mitra@archive.org
 
+PROJECT ABANDONED STILL A GOOD IDEA BUT TOO MUCH WORK TO PUSH ! 
+
 This document is a write up of three conversations I had at the [Decentralized Web Summit](https://decentralizedweb.net), 
 with Juan Benet of Protocol Labs, Mark Nadal of GUN and Irakli Gozalishvili of Mozilla.
 

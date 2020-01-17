@@ -3,14 +3,19 @@
 The Dweb Universal project's goal is to bring the Internet Archive's resources,
 to places where the Internet is poor - either slow, expensive or censored. 
 
-One core output is a set of tools called dweb-mirror (see below). 
-Another will be increased integration of the Decentralized Web tools (IPFS, GUN, WebTorrent, etc) into the Archive.
+* One core output is a set of tools called dweb-mirror (see below). 
+* Another will be increased integration of the Decentralized Web tools (IPFS, GUN, WebTorrent, etc) into the Archive.
+* And the third is the integration of Internet Archive directly or via dweb-mirror into other people's platforms.
 
 Its a public project, discussion, disagreement, suggestions and help are all welcome. 
 
 ## Overview 
-TODO - write something here ! 
 
+At this point we've built an offline server for Internet Archive content.
+[dweb-mirror](https://github.com/internetarchive/dweb-mirror). 
+It works, but has plenty of rough edges.
+
+TODO THIS DIAGRAM IS SERIOUSLY OUT OF DATE
 An [diagram](https://github.com/mitra42/dweb-universal/blob/master/Dweb%20Universal%20architecture.pdf) 
 with an overview of the architecture 
 
@@ -27,30 +32,26 @@ The current version can:
 * crawl a configurable set of Archive items to local storage
 * proxy, storing as it serves. 
 
-It currently (March 2019) runs on the:
-* Rachel 3+ from WorldPossible
-* Raspberry Pi - starting from NOOBS.
-* Internet In A Box - running on a Raspberry Pi
+It currently (August 2019) runs on the:
 
-Each of these has been installed, and will seed or fetch with IPFS. 
+* Internet In A Box - running on a Raspberry Pi.
+* Rachel 3+ from WorldPossible
+* Raspberry Pi - starting from NOOBS. 
+* MacOSX and Linux laptops
+
+On IIAB it is part of the standard v7-big install, 
+on the other platforms its installed by following relatively simple instructions. 
+
+Each has the full set of functionality - i.e. crawl/serve/proxy.
+
+We are part way through porting to really tiny boxes like OrangePi running Armbian.
 
 Coming soon:
 * Automated installation on each of these platforms (its a a simple, but not fully automated install currently)
-* Complete integration of IPFS, GUN, WebTorrent
 * Better support for videos/audio (cache while streaming) and adding text, and web types
 * More platforms
 
 We are looking for test sites who want to use it. 
-
-### Naming - how to name across systems
-
-This outgrowth is to solve a problem that developers of complex systems have, how to reference Dweb urls across platforms,
-and in particular how to make sense of a URL inside one system that points at another one.
-
-See [naming doc](https://github.com/mitra42/dweb-universal/blob/master/naming.md) for first draft of naming structure proposed.
-
-#### Status
-Used in dweb-archive, but very much a background project
 
 ## See Also
 
